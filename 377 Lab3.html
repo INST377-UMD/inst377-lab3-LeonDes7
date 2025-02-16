@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header-footer">
+        <h1>Rock Paper Scissors Game</h1>
+    </header>
+
+    <div class="main-content">
+        <form>
+            <label for="playerName">Name:</label><br>
+            <input type="text" id="playerName" name="playerName" required onfocus="this.style.width='200px'" onblur="this.style.width='100px'"><br><br>
+            <label for="choice">Choose:</label>
+            <select id="choice" name="choice">
+                <option value="rock">Rock</option>
+                <option value="paper">Paper</option>
+                <option value="scissors">Scissors</option>
+            </select><br><br>
+            <button type="submit">Play Game</button>
+        </form>
+    </div>
+
+    <aside class="sidebar" onclick="window.location.href='https://www.pgpedia.com/r/rock-paper-scissors#:~:text=Rock%20wins%20against%20scissors%3B%20paper,there%20is%20a%20clear%20winner.'">
+        <h2>Rules</h2>
+        <p>Rock-Paper-Scissors is a simple hand game played between two players. The rules are:</p>
+        <ul>
+            <li><strong>Rock beats Scissors</strong>: Rock crushes Scissors.</li>
+            <li><strong>Scissors beats Paper</strong>: Scissors cut Paper.</li>
+            <li><strong>Paper beats Rock</strong>: Paper covers Rock.</li>
+        </ul>
+        <p>If both players choose the same option, it's a tie!</p>
+    </aside>
+
+    <nav>
+        <ul>
+            <li><a href="https://www.google.com" target="_blank">Google</a></li>
+            <li><a href="https://www.testudo.umd.edu/" target="_blank">Testudo</a></li>
+            <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+        </ul>
+    </nav>
+
+    <footer class="header-footer">
+        <p>&copy; Hey, this is a quick rock paper scissor game, have fun and mess around with it!!!</p>
+    </footer>
+</body>
+</html>
